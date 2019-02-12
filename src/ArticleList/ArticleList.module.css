@@ -1,0 +1,14 @@
+.wrapping{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: gray;
+
+}
+
+.wrapping:last-child{
+    padding-bottom: 50px;
+}
+
+.wrapping:first-child{
+    padding-top: 0.1px;
+}
