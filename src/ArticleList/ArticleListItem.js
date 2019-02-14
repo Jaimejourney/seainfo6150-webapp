@@ -11,17 +11,14 @@ class ArticleListItem extends React.Component {
     //
     return (
       <div className = {classes.wrapping}>
-          <div className = {classes.title}>{this.props.title}</div>
+          <div className = {classes.title}><h6>{this.props.title}</h6></div>
           <div className = {classes.shortText}>{this.props.shortText}</div>
-          <br />
-          <div className = {classes.author}>By:&nbsp;&nbsp;{this.props.author}</div>
-          <div className = {classes.time}>{this.props.date}</div>
-          {this.props.year}
+          <div className = {classes.author}><address>By:&nbsp;&nbsp;{this.props.author}</address></div>
+          <div className = {classes.time}><time dateTime = {this.props.year}>{this.props.date}</time></div>
       </div>
-    
     );
   }
-
+ 
 }
 
 ArticleListItem.propTypes = {

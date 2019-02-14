@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ArticleList from './ArticleList/ArticleList';
 import Article from './Article';
 
-let articleData=require('./data/article.json');
+let articleData=require('./data/articles.json');
 
 
 class App extends Component {
