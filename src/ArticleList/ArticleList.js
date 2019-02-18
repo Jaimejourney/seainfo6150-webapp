@@ -5,7 +5,6 @@ import classes from "./ArticleList.module.css";
 
 const ArticleList = ({ articles }) => (
    <ul className = {classes.wrapping}>
-
     {
         // this iterates through the articles JSON and
         // calls your ArticleListItem component for each article
@@ -17,6 +16,7 @@ const ArticleList = ({ articles }) => (
             year={article.pubYear}
             author={article.author}
             shortText={article.shortText}
+            url = {article.image._url}
           />
         })
       }

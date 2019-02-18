@@ -3,7 +3,9 @@
     margin-left: 50px;
     margin-right: 50px;
     border:2px solid red;
-    background-color: #e9e9ea;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -29,4 +31,12 @@
     text-align:right;
     padding-right: 50px;
     font-weight: bold;
+}
+
+.imgArea{
+    background: linear-gradient(to right, #ffc4d0, white 35%); 
+}
+
+.textArea{
+    width:100%;
 }
