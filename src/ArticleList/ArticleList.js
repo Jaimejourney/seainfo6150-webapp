@@ -3,28 +3,28 @@ import PropTypes from 'prop-types';
 import ArticleListItem from './ArticleListItem';
 import classes from "./ArticleList.module.css";
 
-const ArticleList = ({ articles }) => (
-   <ul className = {classes.wrapping}>
-    {
-        // this iterates through the articles JSON and
-        // calls your ArticleListItem component for each article
-        Object.values(articles).map(article => {
-          return <ArticleListItem
-            key={article.slug}
-            title={article.title}
-            date={article.pubDate}
-            year={article.pubYear}
-            author={article.author}
-            shortText={article.shortText}
-            url = {article.image._url}
-          />
-        })
-      }
-  </ul>
+const ArticleList = ({articles}) => (
+    <ul className={classes.wrapping}>
+        {// this iterates through the articles JSON and calls your ArticleListItem
+        // component for each article
+        Object
+            .values(articles)
+            .map(article => {
+                return <ArticleListItem
+                    key={article.slug}
+                    title={article.title}
+                    date={article.pubDate}
+                    year={article.pubYear}
+                    author={article.author}
+                    shortText={article.shortText}
+                    url={article.image._url}/>
+            })
+}
+    </ul>
 );
 
 ArticleList.propTypes = {
-  articles: PropTypes.object.isRequired
+    articles: PropTypes.object.isRequired
 }
 
 export default ArticleList;
