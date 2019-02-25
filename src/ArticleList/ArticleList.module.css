@@ -1,8 +1,57 @@
 .wrapping {
-    margin-left: 20%;
-    margin-right: 20%;
     background-color: gray;
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 30px;
 }
+
+.heading{
+    height:150px;
+    background-color: red;
+    display: flex;
+}
+
+.headText{
+    font-size: 30px;
+    color:white;
+    padding-left:50px;
+    padding-top:50px;
+    font-weight: bold;
+}
+
+.headSubText{
+    font-size: 10px;
+    color:white;
+    margin-left:570px;
+    padding-right:50px;
+    padding-top:65px;
+    letter-spacing: 1px;
+    font-weight:normal;
+}
+
+.footer{
+    height:150px;
+    background-color: red;
+    
+}
+
+.footText{
+    font-size: 10px;
+    color:white;
+    padding-left:50px;
+    padding-top:30px;
+    font-weight: normal;
+
+}
+
+.container{
+    width:60%;
+    margin:auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
 .wrapping:last-child {
     padding-bottom: 50px;
 }
