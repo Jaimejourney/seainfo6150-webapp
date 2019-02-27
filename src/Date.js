@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Date=({date}) => (
 
-    <h2 align = "center">{date}</h2>
+    <time dateTime = {date} >{date}</time>
 );
 
 Date.propTypes={

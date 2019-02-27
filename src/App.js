@@ -7,6 +7,9 @@ let articleData=require('./data/articles.json');
 
 class App extends Component {
   render() {
+    const title = "The Statue of Liberty's torch heads to new museum";
+    const date = "November 22, 2018";
+    const author = "Kate Farley";
     const article = (
       <ul>
         <section>
@@ -118,7 +121,7 @@ class App extends Component {
 
     return (
       <div className="App">
-      <ArticleList articles={articleData}/>
+      <Article title = {title} author = {author} date = {date}>{article}</Article>
       </div>
     );
   }
