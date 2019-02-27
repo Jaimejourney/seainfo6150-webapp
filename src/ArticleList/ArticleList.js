@@ -30,7 +30,7 @@ const ArticleList = ({articles}) => (
                 })}
         </ul>
         <div className={classes.footer}>
-            <div className = {classes.footText}> @2019,April Bingham</div>
+            <div className = {classes.footText}> &copy; 2019, &nbsp; April Bingham</div>
         </div>
     </div>
 );

@@ -1,7 +1,8 @@
 .wrapping {
     background-color: gray;
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 310px);
+    grid-auto-rows: minmax(100px, auto);
     padding-bottom: 30px;
 }
 
@@ -49,6 +50,7 @@
     border: 1px solid black;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .wrapping:last-child {
