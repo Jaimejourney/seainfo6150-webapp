@@ -33,12 +33,12 @@ class App extends Component {
 
         <section>
           <p>
-            <q><i>
+            <q><i className = "quote">
               Although it is not one of the most difficult things we have ever
               moved,
             </i></q>{" "}
             says Douglas Phelps, who oversaw the relocation of the torch,{" "}
-            <q><i>it is certainly the most important.</i></q>
+            <q><i className = "quote">it is certainly the most important.</i></q>
           </p>
         </section>
 
@@ -46,7 +46,9 @@ class App extends Component {
           <p>
             Not only is the Statue of Liberty the symbol of New York City, she
             is also a UNESCO World Heritage site under the designation of
+            <q><i className = "quote">
             "Outstanding Universal Value."
+            </i></q>{" "}
           </p>
         </section>
 
@@ -76,15 +78,18 @@ class App extends Component {
 
         <section>
           <p>
-            <q><i>
+            <q><i className = "quote">
               The original torch is a beautiful object of art and exemplifies
               the American ideals of freedom and democracy,
             </i></q>{" "}
             says John Piltzecker, superintendent of the Statue of Liberty
             National Monument. That symbolic spirit was bolstered by the
-            decision to inscribe Emma Lazarus' poem "The New Colossus" on the
+            decision to inscribe Emma Lazarus' poem 
+            <q><i className = "quote">"The New Colossus"</i></q>{" "} on the
             statue's pedestal, which gave Lady Liberty one of her nicknames,
+            <q><i className = "quote">
             "Mother of Exiles."
+            </i></q>{" "}
           </p>
         </section>
 
@@ -122,6 +127,7 @@ class App extends Component {
     return (
       <div className="App">
       <Article title = {title} author = {author} date = {date}>{article}</Article>
+      <ArticleList articles = {articleData} />
       </div>
     );
   }
