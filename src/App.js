@@ -126,7 +126,6 @@ class App extends Component {
 
     return (
       <div className="App">
-      <Article title = {title} author = {author} date = {date}>{article}</Article>
       <ArticleList articles = {articleData} />
       </div>
     );

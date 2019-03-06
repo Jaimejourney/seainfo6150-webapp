@@ -4,10 +4,10 @@
 }
 
 .image {
-    width: 8em;
+    width: 50%;
     margin: 20px;
     padding: auto;
-    border: 10px solid rgb(204, 2, 2);
+    border: 5px solid rgb(204, 2, 2);
     box-shadow: 0 0.5em 1em rgb(58, 53, 53);
     border-radius: 50%;
 }

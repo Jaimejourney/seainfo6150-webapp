@@ -6,6 +6,19 @@
     padding-bottom: 30px;
 }
 
+@media(max-width:1500px){
+    .wrapping{
+        grid-template-columns: repeat(2, 45%);
+    }
+}
+
+@media(max-width:900px){
+    .wrapping{
+        grid-template-columns: repeat(1, 90%);
+    }
+}
+
+
 .heading{
     height:150px;
     background-color: #db0000;
@@ -13,21 +26,31 @@
 }
 
 .headText{
-    font-size: 25px;
+    font-size: 2rem;
+    width:30%;
     color:white;
-    padding-left:50px;
+    padding-left:5%;
     padding-top:50px;
     font-weight: bold;
 }
 
 .headSubText{
-    font-size: 10px;
+    font-size: 1rem;
     color:white;
-    margin-left:570px;
-    padding-right:50px;
+    margin-left:45%;
     padding-top:65px;
     letter-spacing: 1px;
     font-weight:normal;
+}
+
+@media(max-width:1300px){
+    .headSubText{
+        margin-left: 25%;
+    }
+
+    .headText{
+        font-size: 1.5rem;
+    }
 }
 
 .footer{
