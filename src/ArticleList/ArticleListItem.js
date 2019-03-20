@@ -16,7 +16,7 @@ class ArticleListItem extends React.Component {
                 </div>
                 <div className={classes.textArea}>
                     <div className={classes.title}>
-                        <h6>{this.props.title}</h6>
+                        <h3>{this.props.title}</h3>
                     </div>
                     <div className={classes.shortText}>{this.props.shortText}</div>
                     <div className={classes.author}>
