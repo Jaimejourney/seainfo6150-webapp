@@ -13,8 +13,9 @@
 .title {
     padding-left: 20px;
     padding-right:20px;
-    color: red;
-    font-size: 10px;
+    color: rgb(204, 7, 7);
+    font-weight: bold;
+    margin-bottom: 0;
 }
 
 .shortText {

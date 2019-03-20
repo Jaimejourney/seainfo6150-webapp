@@ -1,7 +1,7 @@
 .wrapping {
     background-color: gray;
     display: grid;
-    grid-template-columns: repeat(3, 310px);
+    grid-template-columns: repeat(3, 32%);
     grid-auto-rows: minmax(100px, auto);
     padding-bottom: 30px;
 }
