@@ -2,6 +2,7 @@
     margin-top: 30px;
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 20px;
     border: 2px solid red;
     background: linear-gradient(to right, #ffc4d0, white 15%);
     display: flex;
